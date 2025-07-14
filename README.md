@@ -1,2 +1,1 @@
-# Dibya
-About school
+Web development training.
