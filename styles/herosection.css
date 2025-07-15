@@ -107,7 +107,34 @@ overflow: hidden;
 }
 
 /* Section Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: gray;
+    overflow-x: hidden;
+}
+
+.contain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+:root {
+    --primary-blue: #1e3a8a;
+    --secondary-blue: #3b82f6;
+    --light-blue: #60a5fa;
+    --dark-blue: #1e40af;
+    --accent-blue: #2563eb;
+    --white: #ffffff;
+    --light-gray: #f8fafc;
+    --gray: #64748b;
+    --dark-gray: #334155;
 
 .section-title {
     text-align: center;
@@ -162,6 +189,7 @@ overflow: hidden;
     background: #ffffff;
     border-radius: 15px;
     box-shadow:0 5px 15px rgba(0, 0, 0, 0.685);
+  
     transition: transform 0.3s ease;
 }
 
@@ -192,12 +220,14 @@ overflow: hidden;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.836);
-    transition: all 0.3s ease;
+    
+
 }
 
 .grid-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+   
 }
 
 .grid-item i {
@@ -222,7 +252,7 @@ overflow: hidden;
     background: var(--white);
     padding: 2.5rem;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.767);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.623);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -240,7 +270,8 @@ overflow: hidden;
 
 .academic-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.685);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.562);
+   
 }
 
 .card-icon {
@@ -356,7 +387,8 @@ overflow: hidden;
     color: var(--primary-blue);
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgb(201, 201, 236);
 }
 
 .slider-btn:hover {
@@ -376,14 +408,16 @@ overflow: hidden;
     background: var(--white);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.678);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.61);
+   
     transition: all 0.3s ease;
     display: flex;
 }
 
 .event-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.596);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.541);
+
 }
 
 .event-date {
@@ -459,7 +493,8 @@ overflow: hidden;
     padding: 1.5rem;
     background: var(--white);
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.644);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.534);
+   
 }
 
 .contact-item i {
@@ -482,7 +517,8 @@ overflow: hidden;
     background: var(--white);
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.61);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    background-color:rgb(130, 131, 131);
 }
 
 .form-group {
